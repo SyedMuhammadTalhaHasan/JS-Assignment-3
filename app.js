@@ -30,16 +30,16 @@ percent.innerHTML = percentage;
 if (percentage >= 80) {
     grade.innerHTML="A+"
 }
-else if (80 > percentage <= 70) {
+else if (80 > percentage >= 70) {
     grade.innerHTML="A"
 }
-else if (70 > percentage <= 60) {
+else if (70 > percentage >= 60) {
     grade.innerHTML="B"
 }
-else if (60 > percentage <= 50) {
+else if (60 > percentage >= 50) {
     grade.innerHTML="C"
 }
-else if (50 > percentage <= 40) {
+else if (50 > percentage >= 40) {
     grade.innerHTML="D"
 }
 else {
